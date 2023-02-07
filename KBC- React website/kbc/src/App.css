@@ -1,0 +1,75 @@
+.App {
+  display: flex;
+}
+
+.main {
+  height: 100vh;
+  width: 77vw;
+  background: url('./assets/bg.jpg') center fixed;
+}
+
+.sidebar {
+  width: 23vw;
+  height: 100vh;
+  background-color: #020230;
+  color: white;
+
+}
+
+.sidebar li {
+  /* margin-top: 255px; */
+  list-style: none;
+}
+
+.span {
+  margin: 5px;
+}
+
+.list {
+  margin: 35px;
+}
+
+.list.active {
+  padding: 5px;
+  border-radius: 5px;
+
+  background-color: teal;
+}
+
+.ques {
+  margin-top: 355px;
+  margin-left: 35px;
+  border-radius: 45px;
+  padding: 5px;
+  justify-content: center;
+  background-color: #020230;
+  width: 90%;
+  color: white;
+  text-align: center;
+  border: solid 2px goldenrod;
+}
+
+.ans {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.ans li {
+  margin: 20px;
+  border: solid 2px goldenrod;
+  margin-left: 59px;
+  padding: 5px;
+  border-radius: 25px;
+  width: 355px;
+  color: white;
+  text-align: center;
+  list-style: none;
+  cursor: pointer;
+  background-color: #020230;
+}
+
+.ans li:hover {
+  background-color: teal;
+
+}
